@@ -1,0 +1,87 @@
+.nav-btn {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 15;
+  top: 15;
+  cursor: pointer;
+  z-index: 1;
+}
+
+body {
+  height: auto;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+header {
+  height: 750px;
+  background-image: url(../img/Img.jpg);
+  background-size: cover;
+}
+
+.btn-primary {
+  background-color: #196d87;
+  border-color: #196d87;
+}
+
+nav {
+  width: 250px;
+  background-color: #1d809f;
+  right: 0;
+}
+
+.nav-contant ul {
+  list-style: none;
+}
+
+.nav-contant ul li {
+  cursor: pointer;
+}
+
+.nav-contant ul li:hover {
+  background-color: #196d87;
+}
+
+.offer {
+  height: 500px;
+}
+
+.services {
+  height: auto;
+  background-color: #1d809f;
+}
+
+.service i {
+  padding: 40px;
+  background-color: #196d87 !important;
+}
+
+.welcome {
+  height: 500px;
+  background-color: orange;
+}
+
+.buttons {
+  height: 400px;
+  background-color: #1d809f;
+}
+
+.icons {
+  width: 100%;
+  height: 100px;
+}
+
+.fa-facebook {
+  font-size: 50px;
+}
+
+.fa-twitter {
+  font-size: 50px;
+}
+
+.fa-github {
+  font-size: 50px;
+}
